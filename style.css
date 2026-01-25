@@ -1,0 +1,39 @@
+.volumeButton {
+    display: flex;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.5);
+
+    input[type = "range"] {
+        display: none;
+        accent-color: #ffffff; 
+    }
+}
+
+.volumeButton:hover {
+    gap: 5px;
+
+    input[type = "range"] {
+        display: flex;
+    }
+}
+
+.progressBar {
+    width: 100%;
+    margin: auto;
+    accent-color: #ffffff; 
+}
+
+#toggleMute {
+    user-select: none;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+
+    svg {
+        aspect-ratio: 1/1;
+        width: 22px;
+        height: auto;
+    }
+}

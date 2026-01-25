@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram Reels Volume Slider & Scrubber",
+  "version": "1.0",
+  "description": "Adds volume changing and video scrubber functionality to Instagram Reels",
+
+  "content_scripts": [{
+      "matches": ["https://www.instagram.com/reels/*"],
+      "js": ["extension.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+  }]
+}
