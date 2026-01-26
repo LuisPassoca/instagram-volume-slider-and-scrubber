@@ -26,13 +26,13 @@ This is the recommended installation method as it is easier to manage. It suppor
 
 1. If you do not have it already, install the Tampermonkey Extension for your preferred web browser. You can find the [official website here](https://www.tampermonkey.net/).
 2. After it is properly set up, you can install this user script by clicking the link below, which will redirect you to Tampermonkey's extension installation page.
-> [Install for Tampermonkey](https://github.com/LuisPassoca/reels-volume-slider-and-scrubber/raw/refs/heads/main/tampermokey.user.js)
+> [Install for Tampermonkey](tampermokey.user.js?raw=1)
 
 ### Install via Chrome Extension
 
 If you would prefer to install the Chrome Extension manually, you can do the following:
 
-1. Download the zipped extension file [available here](https://github.com/LuisPassoca/reels-volume-slider-and-scrubber/raw/refs/heads/main/extension.zip).
+1. Download the zipped extension file [available here](extension.zip?raw=1).
 2. Go to 'Manage Extensions' in Chrome's settings.
 3. Enable 'Developer Mode' on the top right.
 4. Drag the downloaded extension.zip file into the page or extract it and use “Load unpacked” option.
