@@ -5,7 +5,7 @@
   "description": "Adds volume changing and video scrubber functionality to Instagram Reels",
 
   "content_scripts": [{
-      "matches": ["https://www.instagram.com/reels/*"],
+      "matches": ["https://www.instagram.com/*"],
       "js": ["extension.js"],
       "css": ["style.css"],
       "run_at": "document_idle"

@@ -1,18 +1,20 @@
 .volumeButton {
     display: flex;
     padding: 5px;
+    cursor: pointer;
     border-radius: 15px;
     background-color: rgba(128, 128, 128, 0.5);
 
     input[type = "range"] {
         display: none;
+        cursor: pointer;
         accent-color: #ffffff; 
     }
 }
 
 .volumeButton:hover {
     gap: 5px;
-
+    
     input[type = "range"] {
         display: flex;
     }
@@ -21,6 +23,7 @@
 .progressBar {
     width: 100%;
     margin: auto;
+    cursor: pointer;
     accent-color: #ffffff; 
 }
 
