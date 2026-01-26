@@ -8,8 +8,8 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
-// @resource     extensionCSS https://cdn.jsdelivr.net/gh/LuisPassoca/reels-volume-slider-and-scrubber@50abbee3b643c69389b2b1010f43a4e9397e1b2b/style.css
-// @require      https://cdn.jsdelivr.net/gh/LuisPassoca/reels-volume-slider-and-scrubber@50abbee3b643c69389b2b1010f43a4e9397e1b2b/extension.js
+// @resource     extensionCSS https://cdn.jsdelivr.net/gh/LuisPassoca/reels-volume-slider-and-scrubber@latest/style.css
+// @require      https://cdn.jsdelivr.net/gh/LuisPassoca/reels-volume-slider-and-scrubber@latest/extension.js
 // ==/UserScript==
 
 (function() {
