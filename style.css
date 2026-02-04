@@ -21,6 +21,9 @@
 }
 
 .progressBar {
+    position: absolute;
+    bottom: -5px;
+    z-index: 99999;
     width: 100%;
     margin: auto;
     cursor: pointer;
