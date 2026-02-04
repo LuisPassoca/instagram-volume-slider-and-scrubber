@@ -16,6 +16,7 @@ function swapDefaultVolumeButton(video) {
     volumeButton.className = 'volumeButton';
     volumeButton.innerHTML = `<input type="range" value="0" step="0.01" min="0" max="1"></input><div id="toggleMute">${muteIcon}</div>`
     
+    if (!document.URL.includes('reels')) {volumeButton.classList.add('extraMargin')};
     svgContainer.before(volumeButton);
 
     const muteButton = volumeButton.querySelector('#toggleMute');
@@ -83,7 +84,7 @@ function attachProgressBar(video) {
 }
 
 function attachListeners() {
-    if (!document.URL.includes('reels')) {return};
+    //if (!document.URL.includes('reels')) {return};
     document.querySelectorAll('video').forEach(video => {
         if (video.listenersAttached) {return};
 

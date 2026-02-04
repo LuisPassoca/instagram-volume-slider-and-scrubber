@@ -12,6 +12,11 @@
     }
 }
 
+.extraMargin {
+    margin-bottom: 10px;
+    margin-right: 2px;
+}
+
 .volumeButton:hover {
     gap: 5px;
     
