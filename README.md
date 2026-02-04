@@ -1,6 +1,6 @@
 # Instagram Reels Volume Slider & Scrubber
 
-This is a browser extension that adds basic volume and video control features to Instagram Reels.
+This is a browser extension that adds basic volume and video control features to Instagram videos.
 
 ## Functionality
 * Replaces the default mute-only button with an adjustable volume slider, while maintaining the toggle mute function.
